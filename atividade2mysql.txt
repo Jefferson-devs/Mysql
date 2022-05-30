@@ -22,14 +22,14 @@ create table db_produtos(
 select * from db_produtos;
 
 
-insert into db_produtos (nomeproduto, quantidade, marca, valor, desconto) values ( " Tenis " , 8 , " Lacoste " , 1200.46 , true  );
-insert into db_produtos (nomeproduto, quantidade, marca, valor, desconto) values ( " Camiseta " , 13 , " Oakley " , 230.55 ,false  );
-insert into db_produtos (nomeproduto, quantidade, marca, valor, desconto) values ( " Bermuda " , 55 , " Nike " , 180.99 ,true );
-insert into db_produtos (nomeproduto, quantidade, marca, valor, desconto) values ( " Calça Jeans " , 3 , " Aposss " , 270.50 ,true  );
-insert into db_produtos (nomeproduto, quantidade, marca, valor, desconto) values ( " Chinelo " , 39 , "Adidas " , 150.99 ,false );
-insert into db_produtos (nomeproduto, quantidade, marca, valor, desconto) values ( " Boné " , 17 , " Onbongo " , 216.70 ,true );
-insert into db_produtos (nomeproduto, quantidade, marca, valor, desconto) values ( " Relógio " , 30 , " Rolex " , 15000 ,false );
-insert into db_produtos (nomeproduto, quantidade, marca, valor, desconto) values ( " Meia " , 26 , " Volcon " , 65.55 ,true );
+insert into tb_produtos (nomeproduto, quantidade, marca, valor, desconto) values ( " Tenis " , 8 , " Lacoste " , 1200.46 , true  );
+insert into tb_produtos (nomeproduto, quantidade, marca, valor, desconto) values ( " Camiseta " , 13 , " Oakley " , 230.55 ,false  );
+insert into tb_produtos (nomeproduto, quantidade, marca, valor, desconto) values ( " Bermuda " , 55 , " Nike " , 180.99 ,true );
+insert into tb_produtos (nomeproduto, quantidade, marca, valor, desconto) values ( " Calça Jeans " , 3 , " Aposss " , 270.50 ,true  );
+insert into tb_produtos (nomeproduto, quantidade, marca, valor, desconto) values ( " Chinelo " , 39 , "Adidas " , 150.99 ,false );
+insert into tb_produtos (nomeproduto, quantidade, marca, valor, desconto) values ( " Boné " , 17 , " Onbongo " , 216.70 ,true );
+insert into tb_produtos (nomeproduto, quantidade, marca, valor, desconto) values ( " Relógio " , 30 , " Rolex " , 15000 ,false );
+insert into tb_produtos (nomeproduto, quantidade, marca, valor, desconto) values ( " Meia " , 26 , " Volcon " , 65.55 ,true );
 
 select * from db_produtos where valor > 500 ;
 select * from db_produtos where valor < 500 ;
